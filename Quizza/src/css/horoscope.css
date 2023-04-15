@@ -1,0 +1,63 @@
+p{
+    font-size: 20px;
+    font-weight: bolder
+}
+.all-horoscope{
+    border-radius: 10px;
+    min-height: 600px;
+    width: 550px;
+    background-color: rgba(184, 176, 184, 0.788) ;
+    margin: 0 auto;
+}
+.horoscope-title{
+    font-size: 80px;
+    text-shadow:none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 7px;
+    margin-top: 10px;
+}
+
+.select-button, .horoscop-button {
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+#list{
+    overflow:scroll ;
+    max-height: 130px;
+    background-color: white;
+    color: black;
+}
+
+#horoscope-title{
+    margin-top: 20px;
+}
+
+.horoscop-button {
+    display: inline-block;
+    background-color: #9d5c7a;
+    padding: 12px 18px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 630;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.horoscop-button:hover {
+    background-color: #581a3b;
+}
+
+#horo-desc {
+    font-size: 40px;
+    color: rgb(253, 253, 253);
+}

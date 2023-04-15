@@ -1,0 +1,12 @@
+.quiz-box{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(251, 129, 255, 0.637);
+    border-width: 0px;
+    width: 250px;
+    min-height: 230px;
+}
+.box-title{
+    font-weight: bold;
+    color:rgb(121, 2, 121);
+}

@@ -1,0 +1,18 @@
+.title-quizzes{
+    margin: 50px;
+    font-size: 100px;
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(253, 253, 253);
+}
+.addQuiz{
+    height: 70px;
+    width: 200px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.result-title{
+    font-size: 30px;
+}
+.quiz-row{
+    display: flex;
+}

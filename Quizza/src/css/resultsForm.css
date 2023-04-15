@@ -1,0 +1,27 @@
+.resultTitle {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(61, 10, 95);
+    border-radius: 10px;
+}
+
+.resultDesc {
+    background-color: rgb(242, 179, 248);
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.share-btn {
+    font-size: 25px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#facebook {
+    color: #4867aa;
+}
+
+#twitter {
+    color: #1da1f2;
+}

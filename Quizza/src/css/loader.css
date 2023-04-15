@@ -1,0 +1,11 @@
+/* Loader */
+
+.loader-container {
+    margin: var(--main-margin);
+  }
+  
+  .mini-loader-container {
+    padding: 0;
+    margin: auto;
+    display: inline;
+  }

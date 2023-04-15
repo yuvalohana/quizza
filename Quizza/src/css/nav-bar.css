@@ -1,0 +1,56 @@
+.allnavbar{
+    background: rgba(128, 13, 128, 0.883);
+
+    height: 10%;
+    width: 100%;
+    overflow:hidden;
+}
+.leftnavbar{
+float: left;
+text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+font-size: 35px;
+font-family: 'Raleway';
+font-weight: bolder;
+color: plum;
+padding-bottom: 5px;
+}
+
+.rightnavbar{
+    float: right;
+    color: rgba(252, 252, 252, 0.712);
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.navLinks {
+    text-decoration: none;
+    color: rgba(255, 254, 254, 0.938);
+    font-family: 'Raleway';
+    font-size: 23px;
+    padding-top: 20px;
+    padding: 20px;
+    background-color: rgb(139, 89, 139)
+}
+.navLinks:link, .navLinks:hover, .navLinks:visited , .navLinks:active{
+    text-decoration: none;
+    color: rgba(255, 254, 254, 0.74);
+}
+
+#username {
+    float: left;
+    color: rgba(255, 254, 254, 0.938);
+    margin: 12px 25px;
+    font-size: 20px;
+}

@@ -1,0 +1,463 @@
+/* .box-link {
+    
+} */
+
+.page-section {
+    padding: 80px 0;
+}
+
+@media (max-width: 480px) {
+    .page-section h1 {
+        font-size: 3em;
+    }
+    .page-section h2 {
+        font-size: 2em;
+    }
+    .page-section p {
+        font-size: 1em;
+        margin: 0 0 20px;
+    }
+}
+/* 
+.search-by-ingredients button {
+	background-color: #5c9d7d;
+}
+
+.Get-recipes {
+	background-color: #5c9d7d;
+	margin-left: 230px;
+} */
+
+/* add recipe modal */
+
+.box-link {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#addRecipe {
+	background-color: #5c9d7d;
+	margin-left: 230px;
+}
+
+.Diets {
+	margin-left: 40px;
+}
+
+.modal-title {
+  text-align: center;
+  font-size: 24px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: purple
+}
+
+.modal {
+	margin-top: 100px;
+}
+
+.modal button {
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+.modal button:focus {
+	outline:0;
+	padding: 0;
+	border: none;
+}
+
+/* sign up==================== */
+
+#myModal4 body {
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	width: 650px;
+	height: 1000px
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+#myModal4 button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+	opacity: 0.9;
+	margin-right: 100px;
+}
+
+#myModal4 button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+#myModal4 .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+#myModal4 .cancelbtn, .signupbtn {
+  /* float: left; */
+  width: 50%;
+}
+
+/* Add padding to container elements */
+#myModal4 .container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+#myModal4 .modal {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+#myModal4 .modal-content div {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+#myModal4 hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+#myModal4 .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+#myModal4 .close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+#myModal4 .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+/* modals */
+
+.show {
+	display: block;
+}
+
+.search {
+	box-sizing: border-box;
+}
+
+.search button {
+	border-width: 5px;
+	border-color: #202628;
+	background-color: #1d7e4d;
+}
+
+.search-by-ingredients button {
+	background-color: #5c9d7d;
+}
+
+.Get-recipes {
+	background-color: #5c9d7d;
+	margin-left: 230px;
+}
+
+/* add recipe modal */
+
+#addRecipe {
+	background-color: #5c9d7d;
+	margin-left: 230px;
+}
+
+.Diets {
+	margin-left: 40px;
+}
+
+.modal-title {
+	text-align: center;
+}
+
+.modal {
+	margin-top: 100px;
+}
+
+.modal button {
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+.modal button:focus {
+	outline:0;
+	padding: 0;
+	border: none;
+}
+
+.second-service .icon {
+	background-image: url(../img/second-service-main.png);
+	height: 32px;
+	width: 22px;
+	display: inline-block;
+}
+
+.second-service:hover .icon {
+	background-image: url(../img/second-service-white.png);
+}
+
+.service-item {
+	cursor: pointer;
+	background-color: #fff;
+	text-align: center;
+	padding: 30px 20px;
+	transition: all 0.7s;
+	box-shadow: 0px 0px 15px #cdcdcd;
+}
+
+.service-item:hover {
+	background-color: #a2cf8d;
+}
+
+.service-item h4 {
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+
+.service-item:hover h4 {
+	color: #fff;
+}
+
+.service-item:hover p {
+	color: #fff;
+}
+
+/* cols */
+
+@media (min-width: 992px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+ 
+.col-md-3 {
+    width: 25%;
+}
+
+.col-sm-6 {
+    width: 50%;
+  }
+
+}  
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+  }
+
+  .col-xs-12 {
+    width: 100%;
+  }
+
+  .fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+         -o-transition: opacity .15s linear;
+            transition: opacity .15s linear;
+  }
+  .fade.in {
+    opacity: 1;
+  }
+
+  .close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+  }
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+  }
+  button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+  }
+  .modal-open {
+    overflow: hidden;
+  }
+  .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+  }
+  .modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform .3s ease-out;
+         -o-transition:      -o-transform .3s ease-out;
+            transition:         transform .3s ease-out;
+    -webkit-transform: translate(0, -25%);
+        -ms-transform: translate(0, -25%);
+         -o-transform: translate(0, -25%);
+            transform: translate(0, -25%);
+  }
+  .modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+         -o-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  .modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+  }
+  .modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+            box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+  }
+  .modal-backdrop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #000;
+  }
+  .modal-backdrop.fade {
+    filter: alpha(opacity=0);
+    opacity: 0;
+  }
+  .modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .5;
+  }
+  .modal-header {
+    min-height: 16.42857143px;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .modal-header .close {
+    margin-top: -2px;
+  }
+  .modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+  }
+  .modal-body {
+    position: relative;
+    padding: 15px;
+  }
+  .modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+  }
+  .modal-footer .btn + .btn {
+    margin-bottom: 0;
+    margin-left: 5px;
+  }
+  .modal-footer .btn-group .btn + .btn {
+    margin-left: -1px;
+  }
+  .modal-footer .btn-block + .btn-block {
+    margin-left: 0;
+  }
+  .modal-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll;
+  }
+  @media (min-width: 768px) {
+    .modal-dialog {
+      width: 600px;
+      margin: 30px auto;
+    }
+    .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+              box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+    .modal-sm {
+      width: 300px;
+    }
+  }
+  @media (min-width: 992px) {
+    .modal-lg {
+      width: 900px;
+    }
+  }

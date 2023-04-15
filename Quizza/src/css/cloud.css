@@ -1,0 +1,76 @@
+.cloud {
+    animation: fadein 4s;
+    -moz-animation: fadein 2s; 
+    -webkit-animation: fadein 4s; 
+    -o-animation: fadein 2s; 
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.resultTitle {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(61, 10, 95);
+    border-radius: 10px;
+}
+.resultDesc {
+    background-color: rgb(242, 179, 248);
+    font-size: 18px;
+    border-radius: 8px;
+}
+.share {
+    max-width: 150px;
+    margin-top: 0.8em;
+    margin-right: 10%;
+    margin-bottom: 2.5em;
+    padding: 3px 7px;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 0.8em;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+  }
+  .share a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .cloud-desc {
+      font-size: 40px;
+    /* font-size: 3rem; */
+    font-weight: bolder;
+    color: white;
+ }
+
+ .cloud-title {
+    margin: 50px;
+    font-size: 80px;
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(253, 253, 253);
+ }

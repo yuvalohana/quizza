@@ -1,0 +1,24 @@
+.addQuiz button {
+    background-color: rgb(173, 136, 180);
+}
+
+.quizResultTitle {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.BackButton{
+    text-decoration: none;
+    height: 20px;
+    width: 150px;
+    background-color: rgba(248, 248, 248, 0.801);
+    color: rgb(211, 43, 226);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.BackButton:link, .BackButton:hover, .BackButton:visited , .BackButton:active{
+    text-decoration: none;
+}
+

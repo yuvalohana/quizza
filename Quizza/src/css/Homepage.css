@@ -1,0 +1,71 @@
+body{
+    background-color:plum;
+    font-family: 'Raleway', cursive;
+}
+.apps{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+h1{
+    font-size: 100px;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+               color: rgb(255, 255, 255);
+
+    font-weight: bolder;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 7px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+.opening{
+font-size: 20px;
+color: white;
+}
+.app{
+    display: inline-block;
+    height: 220px;
+    width: 350px;
+    background-color:rgb(243, 115, 243);
+    border-radius: 10px;
+    border-color: rgba(252, 252, 252, 0.884);
+    border-width: 5px;
+    color: rgba(252, 252, 252, 0.884);
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.header{
+font-size: 20px;
+
+}
+.icon{
+ font-size: 50px;
+}
+.app:hover{
+   background-color: #f373f38f; 
+}
+.describe{
+    display: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    height: 100px;
+    width: 300px; 
+    text-align: center;
+}
+.app:hover .describe{
+    display: block;
+    color: black;
+}

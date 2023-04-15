@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <div className="modal fade" id="myModal1" role="dialog">
+        <div className="modal-dialog">
+            <div className="modal-content">
+                <div className="modal-header">
+                    <button type="button" className="close" data-dismiss="modal">&times;</button>
+                    <h4 className="modal-title" style="font-size: 24px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: purple">Browse
+                        Recipes By Recipe Name</h4>
+                </div>
+                <div className="modal-body">
+                    <div className="container name-search-screen">
+                        <form className="header-form">
+                            <div className="form-group">
+                                <div className="input-group mb-3 name-search-form">
+                                    <input type="text" className="form-control" id="recipe-input" placeholder="Enter quiz name"
+                                        required style="display: block; width: 350px" />
+                                    <p>
+                                        <b style="text-align: center;margin-right: 100px"></b>
+                                        <br></br>
+                                        <button type="button" className="btn add-ingredients"></button>
+                                        <br></br>
+
+                                        <b style="text-align: center;margin-right: 100px">add ingredients you want?</b>
+                                    </p>
+                                    <input type="text" className="form-control toggle-ingredients-input" id="ingredients-input"
+                                        placeholder="Enter ingredient/s with comma between!" required style="display: block; width: 350px" />
+                                    <div className="container" style="box-sizing: border-box">
+                                        <div className="allergies">
+                                            <br></br>
+                                            <b style="color: slateblue">Allergies:</b>
+                                            <div className="form-check form-check-inline">
+                                                <input className="form-check-input" type="checkbox" name="feature" id="tree-nut-checkbox"
+                                                    value="tree-nut-free" />
+                                                <label className="form-check-label" for="tree-nut-checkbox">tree-nut-free</label>
+                                            </div>
+                                            <div className="form-check form-check-inline">
+                                                <input className="form-check-input" type="checkbox" name="feature" id="peanuts-checkbox"
+                                                    value="peanut-free" />
+                                                <label className="form-check-label" for="peanuts-checkbox">peanut-free</label>
+                                            </div>
+
+                                        </div>
+                                        <div className="input-group-append">
+                                            <button type="button" className="btn btn-primary Get-recipes" style="background-color: mediumpurple">Get
+                                                recipes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div className="recipes"></div>
+                </div>
+                <div className="modal-footer">
+                    <button type="button" className="btn btn-default" data-dismiss="modal" style=" background-color: khaki">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

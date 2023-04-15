@@ -1,0 +1,31 @@
+.onquestion{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.quiz{
+    background-color: rgba(195, 43, 226, 0.74);
+    width: 1100px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: normal;
+}
+.quiz-title{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 25px;
+}
+#quizResultTitle{
+    font-family: 'Luckiest Guy', cursive;  
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.next-button {
+    height: 35px;
+    width: 50px;
+    background-color: rgb(240, 192, 247); 
+    font-weight: bold;
+    border-width: 0px;
+    color: rgb(0, 0, 0);
+border-radius: 5px;
+font-size: 20px;
+margin: 20px auto;
+}
